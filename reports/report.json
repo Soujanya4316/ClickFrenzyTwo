@@ -1,0 +1,735 @@
+[
+  {
+    "description": "\tAs a Customer on duckduckgo home page\n\tI would see search functionality as expected",
+    "keyword": "Feature",
+    "name": "Duck Go home page test",
+    "line": 2,
+    "id": "duck-go-home-page-test",
+    "tags": [
+      {
+        "name": "@test",
+        "line": 1
+      }
+    ],
+    "uri": "features\\test_suite\\duckGo.feature",
+    "elements": [
+      {
+        "id": "duck-go-home-page-test;check-duckduckgo-logo",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Check duckduckgo logo",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9657000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to DuckDuckGo Home Page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6864000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "i should see duckduckgo logo on home page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 338000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3023000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "duck-go-home-page-test;search-suggestion-count-in-dropdown",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Search Suggestion count in dropdown",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6957000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to DuckDuckGo Home Page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I type super text into the search box",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 949000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I expect to see exactly 10 suggestions in the typeahead dropdown",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3002000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "duck-go-home-page-test;first-search-suggestion-in-dropdown",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "First search suggestion in dropdown",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7016000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to DuckDuckGo Home Page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I type supercalafragalistic into the search box",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I expect the first result in the suggessions to be supercalafragalisticexpialadoshus",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3012000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "duck-go-home-page-test;themes-link-in-hamburger-menu",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Themes Link in Hamburger Menu",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6977000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to DuckDuckGo Home Page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7575000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click on the hamburger menu in the top right",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 547000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I expect to see a themes link",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3016000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "duck-go-home-page-test;page-background-on-theme-change",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Page background on Theme Change",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6920000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to DuckDuckGo Home Page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12520000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I click on the themes link",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8343000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I click on the dark mode theme button",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "My page background should change colour",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3007000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "duck-go-home-page-test;number-of-results-on-search-result-page",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Number of results on Search Result Page",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6924000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to DuckDuckGo Home Page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3792000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I type \"Back to Future\" into the search box and click on magnifier glass",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6555000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should get 10 results on the results page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I navigate to DuckDuckGo Home Page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I type \"BMX Bandits\" into the search box and click on magnifier glass",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I should get 10 results on the results page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I navigate to DuckDuckGo Home Page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I type \"Rocky IV\" into the search box and click on magnifier glass",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1729000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I should get 10 results on the results page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I navigate to DuckDuckGo Home Page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "I type \"Short Circuit\" into the search box and click on magnifier glass",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I should get 10 results on the results page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I navigate to DuckDuckGo Home Page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I type \"The Terminator\" into the search box and click on magnifier glass",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I should get 10 results on the results page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1231000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I navigate to DuckDuckGo Home Page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 569000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I type \"Ferris Bueller's day off\" into the search box and click on magnifier glass",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2551000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "I should get 10 results on the results page",
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1581000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Parankusham\\Downloads\\duckGo_Test_Challenge_1\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3015000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
